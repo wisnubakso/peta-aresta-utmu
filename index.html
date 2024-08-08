@@ -73,6 +73,7 @@
 
     <!-- Measurement JS Library -->
     <script src="plugin/leaflet-measure/leaflet-measure.js"></script>
+    
     <style>
       /* style umum */
       html,
@@ -119,9 +120,9 @@
         width: 100%;
         overflow: hidden;
       }
-      body {
+      /* body {
         padding-top: 50px;
-      }
+      } */
       .navbar {
         border-color: #bbb;
       }
@@ -335,7 +336,7 @@
                 fillOpacity: 0.5, //Transparansi tengah polygon
               });
               var content =
-                "<p><b>NIB : </b>" +
+              "<p><b>NIB : </b>" +
                 "<b>" +
                 feature.properties.NIB +
                 "</b>" +
